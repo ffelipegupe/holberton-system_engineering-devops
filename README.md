@@ -6,4 +6,4 @@
 * Manipulating Files
 * Man
 * LTS
-*Keyboar Shortcuts 
+* Keyboar Shortcuts 
