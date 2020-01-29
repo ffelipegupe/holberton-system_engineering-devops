@@ -1,20 +1,20 @@
-#List of scripts:
-0. 0-current_working_directory: will show the abdolute path of the current working directory.
-1. 1-listit: will display the contents list of the current directory.
-2. 2-bring_me_home: will change thr working directory to the user's home directory.
-3. 3-listfiles: will display the current directory contents in a long format.
-4. 4-listmorefiles: will display the current directory contents, including hidden files.
-5. 5-listfilesdigitonly: will display current directory contents in long format, with user and group IDs, and hidden files.
-6. 6-firstdirectory: will create a directory named holberton in the /tmp/ directory.
-7. 7-movethatfile: will move the betty from /tmp/ to /tmp/holberton.
-8. 8-firstdelete: will delete the file betty.
-9. 9-firstdirdeletion: will delete the directory holberton that is in the /tmp directory.
-10. 10-back: will change the working directory to the previous one.
-11. 11-lists: will list all files in the current directory and the parent of the working directory and the /boot dir, in long format.
-12. 12-file_type: will print the type of the file named iamafile.
-13. 13-symbolic_link: will creae a symbolic ling to /bin/lis, named __ls__ in the current working directory.
-14. 14-copy_html: will copy all the HTML files from the cd to the parent of the working directory.
-15. 15-lets_move: will move all files beginning with an uppercase letter to the directory.
-16. 16-clean_emacs: will delete all files in the current working directory that end with "~".
-17. 17-tree: will creat the directories welcome/, welcome/to/ and welcome/to/holberton in the current working directory.
-18. 18-commas: will list all the files and directories of the current directory, separated by commas.
+# List of scripts:
+- 0-current_working_directory: will show the abdolute path of the current working directory.
+- 1-listit: will display the contents list of the current directory.
+- 2-bring_me_home: will change thr working directory to the user's home directory.
+- 3-listfiles: will display the current directory contents in a long format.
+- 4-listmorefiles: will display the current directory contents, including hidden files.
+- 5-listfilesdigitonly: will display current directory contents in long format, with user and group IDs, and hidden files.
+- 6-firstdirectory: will create a directory named holberton in the /tmp/ directory.
+- 7-movethatfile: will move the betty from /tmp/ to /tmp/holberton.
+- 8-firstdelete: will delete the file betty.
+- 9-firstdirdeletion: will delete the directory holberton that is in the /tmp directory.
+- 10-back: will change the working directory to the previous one.
+- 11-lists: will list all files in the current directory and the parent of the working directory and the /boot dir, in long format.
+- 12-file_type: will print the type of the file named iamafile.
+- 13-symbolic_link: will creae a symbolic ling to /bin/lis, named __ls__ in the current working directory.
+- 14-copy_html: will copy all the HTML files from the cd to the parent of the working directory.
+- 15-lets_move: will move all files beginning with an uppercase letter to the directory.
+- 16-clean_emacs: will delete all files in the current working directory that end with "~".
+- 17-tree: will creat the directories welcome/, welcome/to/ and welcome/to/holberton in the current working directory.
+- 18-commas: will list all the files and directories of the current directory, separated by commas.
