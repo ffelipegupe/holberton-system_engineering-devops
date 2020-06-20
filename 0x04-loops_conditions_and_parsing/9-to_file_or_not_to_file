@@ -10,7 +10,7 @@ then
 	then
 		echo "holbertonschool file is empty"
 	else
-		echo "holberton file is not empty"
+		echo "holbertonschool file is not empty"
 	fi
 	if [ -f "$FILE" ]
 	then
