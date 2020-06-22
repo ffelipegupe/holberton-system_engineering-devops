@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #  Bash script that displays a phrase
 
-trap "echo 'I am invicinble!!!'" SIGTERM
+trap "echo 'I am invincible!!!'" SIGTERM
 while true; do
       echo "To infinity and beyond"
       sleep 2
