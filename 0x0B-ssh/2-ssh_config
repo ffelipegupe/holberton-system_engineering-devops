@@ -1,0 +1,4 @@
+# configure it to our needs so that you can connect to a server without typing a password.
+Host *
+     IdentyFile ~/.ssh/holberton
+     PasswordAuthentication no
