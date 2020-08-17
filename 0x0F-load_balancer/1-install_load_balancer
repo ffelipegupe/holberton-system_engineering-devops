@@ -4,12 +4,12 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install haproxy
-echo "
+sudo echo "
 frontend http_front
    bind *:80
    default_backend http_back
 backend http_back
    balance roundrobin
    server 1560-web-01 34.74.47.18:80 check
-   server 1560-web-02 35.231.35.40:80 check" >> /etc/haproxy/haproxy.cgf
+   server 1560-web-02 35.231.35.40:80 check" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy start
