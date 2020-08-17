@@ -2,5 +2,5 @@
 # Debugging nginx
 
 sudo pkill nginx
-sed -i -e 's/8080/80/g' /etc/nginx/sites-enabled/default
+sed -i 's/8080/80/' /etc/nginx/sites-enabled/default
 sudo service nginx restart
