@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-
+Todo retrieves
 """
 import requests
 from sys import argv
