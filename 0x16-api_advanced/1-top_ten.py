@@ -23,5 +23,5 @@ def top_ten(subreddit):
                 p_data = pst.get('data')
                 title = p_data.get('title')
                 print(title)
-        else:
-            print("None")
+    else:
+        print("None")
