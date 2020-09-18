@@ -20,8 +20,6 @@ def top_ten(subreddit):
         children = data.get('children')
         if data is not None and children is not None:
             for pst in children:
-                p_data = pst.get('data')
-                title = p_data.get('title')
-                print(title)
+                print(pst.get('data').get('children'))
     else:
         print("None")
