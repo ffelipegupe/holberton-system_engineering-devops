@@ -18,7 +18,7 @@ def recurse(subreddit, hot_list=[]):
     if len(hot_list) == 0:
         url = first_url
     else:
-        url = base_url + '?after={}_{}'.format(
+        url = first_url + '?after={}_{}'.format(
             hot_list[-1].get('kind'), hot_list[-1].get('data').get('id'))
     rep = requests.get(url, headers=user_agent)
     j_rep = json.loads(rep.text)
