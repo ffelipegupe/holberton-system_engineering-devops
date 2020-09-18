@@ -14,7 +14,7 @@ def recurse(subreddit, hot_list=[]):
     a list containing the titles of all hot articles for a given subreddit.
     """
     first_url = 'https://www.reddit.com/r/{}/top.json'.format(subreddit)
-    user_agent = {'User-Agent'}
+    user_agent = {'User-Agent': 'User Agent'}
     if len(hot_list) == 0:
         url = first_url
     else:
