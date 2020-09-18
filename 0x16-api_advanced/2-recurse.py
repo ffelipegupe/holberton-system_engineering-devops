@@ -3,7 +3,9 @@
 Use of reddit API
 """
 
-import requests, json, sys
+import requests
+import json
+import sys
 
 
 def recurse(subreddit, hot_list=[]):
